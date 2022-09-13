@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    height: 100%;
+    overflow: hidden;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./maggi-whiston---_q96cdBso-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+head{
+    float: inline-end;
+}
+
+      
+     
+
+#a{
+    text-decoration: none;
+    color:darkblue;
+}
+
+h3{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 25px;
+
+}
+
+
+h1,h2, {
+    margin: 0;
+
+}
+
+
+#container{
+    background-color: rgba(145, 194, 237, 0.5);
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+#header{
+    background-color: rgba(246, 137, 179, 0.244);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    }
+
+#content { 
+    padding: 10px;
+    background-color: rgba(156, 191, 221, 0.936);
+}
+
+nav{
+    display: flex;
+    float: right;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0%;
+    text-underline-position: right;
+    float: left;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: rgb(246, 137, 179);
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
