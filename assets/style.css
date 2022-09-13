@@ -8,9 +8,15 @@ body{
     background-repeat: no-repeat;
 }
 
+img {
+    max-width: 70px;
+    justify-self: center;
+
+}
 
 head{
     float: inline-end;
+    
 }
 
       
